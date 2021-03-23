@@ -1,0 +1,61 @@
+.container {
+  background: beige;
+  height: 100vh;
+  display: flex; /*display 선언*/
+  flex-direction: row; /*row-reverse, column, column-reverse*/
+  flex-wrap: nowrap; /*wrap : 줄바꿈, wrap-reverse : 거꾸로 나타남*/
+  /* flex-flow:column nowrap; direction wrap동시에 */
+
+  /*주축에서 어떻게 아이템을 배치하는지*/
+  justify-content: flex-start; /*Main Axis이다, flex-end,space-around,space-evenly,space-between*/
+
+  /*반대축(cross axis)에서 아이템을 배치하는지*/
+  /* align-items: baseline; baseline 유용 :: 교차축 줄 정렬방법 */
+  /* align-content: space-between; :: 교차축 컨텐츠 정렬 방법*/
+}
+
+.item {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
+
+.item1 {
+  background: #e5ffff;
+  /* order: 0 정렬순서를 정한다*/
+  /* flex-grow: 1; 컨테이너를 꽉채우려고 한다. 숫자는 비율(다른것과 사용할때)*/
+  /* flex-shrink: 0; 브라우저가 작아질때 어떤 비율로 줄어들고 늘어나는가 */
+  /* flex-basis: 60%; 항상 몇 %의 비율로 유지하는가 */
+  /* align-self: center; 아이템 하나만 딱 때서 배치한다. */
+}
+
+.item2 {
+  background: #b4ffff;
+}
+
+.item3 {
+  background: #6ff9ff;
+}
+
+.item4 {
+  background: #62efff;
+}
+.item5 {
+  background: #5ddef4;
+}
+.item6 {
+  background: #56c8d8;
+}
+.item7 {
+  background: #4fb3bf;
+}
+.item8 {
+  background: #428e92;
+}
+.item9 {
+  background: #baffff;
+}
+
+.item10 {
+  background: #76ffff;
+}
