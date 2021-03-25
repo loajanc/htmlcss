@@ -4,18 +4,49 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- 타이틀 -->
   <title> SeongHyun's Portfolio </title>
+  <!-- description, author -->
   <meta name="description" content="Portfolio for software engineer SeongHyun">
   <meta name="author" content="SeongHyun">
-  <link rel="icon" href="D:\sourcecode\github\htmlcss\study2\imgs\favicon.png">
+  <!-- 구글폰트 -->
   <script src="https://use.fontawesome.com/releases/v5.15.2/js/all.js" data-auto-replace-svg="nest"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,600&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" href="favicon.png">
+  <!-- 파비콘 -->
+  <link rel="icon" type="image/png" href="imgs/favicon.png">
+  <!-- css,자바스크립트 -->
   <link rel="stylesheet" href="style.css">
   <script src="main.js" defer></script><!--defer는 먼저 자바스크립트를 다 받고 실행한다..-->
 </head>
 <body>
-  
+  <!-- Navbar -->
+  <nav id="navbar">
+    <nav class="navbar__logo">
+      <img src="imgs/favicon.png"/>
+      <a href="#">SeongHyun</a>
+    </nav>
+    <nav class="navbar__menu">
+      <ul class="navbar__menu">
+        <li class="navbar__menu__item">Home</li>
+        <li class="navbar__menu__item">About</li>
+        <li class="navbar__menu__item">Skills</li>
+        <li class="navbar__menu__item">My work</li>
+        <li class="navbar__menu__item">Testimonial</li>
+        <li class="navbar__menu__item">Contact</li>
+      </ul>
+    </nav>
+  </nav>
+  <!-- About -->
+  <section id="about"></section>
+  <!-- Skills -->
+  <section id="skills"></section>
+  <!-- Work -->
+  <section id="work"></section>
+  <!-- Testimonials -->
+  <section id="testimonials"></section>
+  <!-- Contact -->
+  <section id="contact"></section>
 </body>
 </html>
